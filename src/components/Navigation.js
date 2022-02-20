@@ -1,12 +1,19 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./Navigation.css";
+import {Link} from "react-router-dom";
 
 function Navigation() {
     return (
-        <div>
+        <div className="nav__container">
             <Link to="/">Главная</Link>
-            <Link to="/about">О проекте</Link>
+            <Link
+                to="/about"
+                state={{
+                    fromLocation: true,
+                }}
+            >
+                О проекте
+            </Link>
         </div>
     )
 }

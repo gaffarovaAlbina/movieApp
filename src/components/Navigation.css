@@ -1,4 +1,4 @@
-.nav {
+.nav__container {
     position: fixed;
     top: 50px;
     left: 10px;
@@ -6,12 +6,11 @@
     flex-direction: column;
     background-color: white;
     padding: 10px 20px;
-    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
     border-radius: 5px;
 }
 
-.nav a {
+.nav__container a {
     text-decoration: none;
     color: #0008fc;
     text-transform: uppercase;
@@ -20,6 +19,6 @@
     font-weight: 600;
 }
 
-.nav a:not(:last-child) {
+.nav__container a:not(:last-child) {
     margin-bottom: 20px;
 }
