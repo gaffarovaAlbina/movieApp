@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 
 function Navigation() {
     return (
+        <div className="containern">
         <div className="nav__container">
             <Link to="/">Главная</Link>
             <Link
@@ -14,7 +15,7 @@ function Navigation() {
             >
                 О проекте
             </Link>
-        </div>
+        </div></div>
     )
 }
 
